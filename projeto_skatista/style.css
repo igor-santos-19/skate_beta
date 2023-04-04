@@ -1,0 +1,46 @@
+.nav_bar{
+    display: flex;
+
+}
+.itens_menu{
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    align-items: center; 
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.itens_menu li a{
+    text-decoration: none;
+    color: black
+}
+.alinha_direita_nav{
+    display: grid;
+    margin-left: auto;
+}
+.imagem_logo_menu{
+    transform: scale(0.7, 0.4);
+    margin-left: -20px;
+}
+.imagem_central{
+    display: flex;
+    justify-content: center;
+    transform: scale(0.7);
+}
+.primary_text{  
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 5.7em;
+    font-weight:600;
+    position: absolute;
+    word-spacing: 440px;
+    display: grid;
+    justify-content: center;
+    margin-top: 3.0em;
+    margin-right: 30px;
+}
+header{
+    margin-top: -100px;
+}
